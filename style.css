@@ -1,0 +1,141 @@
+#gradient-container {
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.20) 0%,rgba(0,0,0,0) 100%);
+}
+
+#site-nav {
+    margin-left: 50px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.nav-element {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.nav-element a , .nav-element-center a{
+    color: #4b684b;
+    text-shadow: 1px 1px 1px #d3dfd3;
+    transition: 0.2s;
+}
+
+.nav-element a:hover , .nav-element-center a:hover{
+    text-shadow: 1px 1px 1px #7a9f7a;
+    transition: 0.2s;
+}
+
+.nav-element-center {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    margin: 0em 2em 0em 2em;
+    margin-top: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#header {
+    margin-top: -150px;
+    height: 381px;
+    background-image: url(header-bg-trees.png); /* Путь к фоновому изображению */
+    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-content {
+    background-color: #76915B;
+}
+
+#logo{
+    background-image: url(logo.png);
+    margin-left: 10px;
+    width: 143px;
+    height: 172px;
+}
+
+.container-text {
+    font-size: 25px;
+    margin-top: 15px;
+    padding-left: 0px;
+}
+
+.container-text a, .main-content-text p{
+    color: white;
+    text-shadow: 1px 1px 1px #4a5d34;
+    transition: 0.2s;
+}
+
+.container-text a:hover{
+    text-shadow: 3px 3px 3px #4a5d34;
+    transition: 0.2s;
+}
+
+.container-text a:clicked{
+    text-shadow: 3px 3px 3px #4a5d34;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.main-content-text {
+    font: bold 12px/15px "Arial",sans-serif;
+    color: white;
+}
+
+.main-content-text a{
+    font: bold 12px/15px "Arial",sans-serif;
+    color: white;
+    padding: 3px;
+}
+
+.main-content-text p{
+    font: bold 12px/15px "Arial",sans-serif;
+    color: white;
+}
+
+a.icon {
+    padding-left: 23px;
+    background: url(link-arrow-default.png) no-repeat 1px 1px;
+    height: 20px;
+}
+
+#emblem {
+    margin-top: 100px;
+}
+
+img.resize {
+    width: 100%;
+}
+
+#ostervang-skovburg-section {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#ostervang-text-header {
+    font-size: 25px;
+}
+
+#footer {
+    margin-top: 20px;
+}
+
+.footer-text , .footer-text a{
+    font-size: 14px;
+    color: gray;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+.footer-content-block {
+    border-right: 1px solid lightgray;
+}
